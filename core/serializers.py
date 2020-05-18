@@ -19,4 +19,4 @@ from django import forms
 class PostSerializer(serializers.ModelSerializer):
     class Meta:
         model = Post
-        fields = ['title','description']
+        fields = ['title','description','owner']
